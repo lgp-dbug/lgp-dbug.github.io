@@ -1,0 +1,16 @@
+.vertical-heading-xl {
+	transform: rotate(-90deg);
+	transform-origin: left top 0;
+	float:left;
+	font-size:100pt;
+	font-family: 'Arial Black';
+	/*margin-top: -100px;*/
+}
+
+.dbug-green {
+	color: rgb(190, 242,2);
+}
+
+.dbug-grey {
+	color: rgb(209,211,212);
+}

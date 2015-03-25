@@ -126,6 +126,40 @@
 	color: rgb(0, 0, 0);
 }
 
+
+/*********************/
+.icon-team-circle .path1:before {
+	content: "\e60f";
+	color: rgb(190, 242, 2);
+}
+.icon-team-circle .path2:before {
+	content: "\e610";
+	margin-left: -1em;
+	color: rgb(190, 242, 2);
+}
+.icon-team-circle .path3:before {
+	content: "\e611";
+	margin-left: -1em;
+	color: rgb(190, 242, 2);
+}
+.icon-team-circle .path4:before {
+	content: "\e612";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+/******************/
+
+#team h3, #team p{
+	font-size:13px;
+	color:#000;
+}
+
+#team a{
+	display:block;
+	color: rgb(190, 242, 2);
+}
+
+
 .icon-work:before {
 	content: "\e604";
 }

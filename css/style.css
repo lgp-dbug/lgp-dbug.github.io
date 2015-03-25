@@ -4,7 +4,7 @@
     float:left;
     font-size:100pt;
     font-family: 'Arial Black';
-    /*margin-top: -100px;*/
+    margin-top: -40px; /* HACK */
 }
 
 .dbug-green {

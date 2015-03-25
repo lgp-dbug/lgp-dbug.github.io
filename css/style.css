@@ -176,3 +176,14 @@
     /* font-size: xx-large; */
     padding-left: 20px;
 }
+
+.navbar-fixed-top.navbar-shrink .nav-text{
+    font-size: 0.8em;
+    margin-left: 0em;
+}
+.navbar-fixed-top.navbar-shrink [class*=" icon-"]{
+    font-size: 1.5em;
+    margin-left: -0.45em;
+}
+
+

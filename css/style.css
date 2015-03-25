@@ -15,6 +15,14 @@
     color: rgb(209,211,212); /* #D1D3D4 */
 }
 
+.dbug-white {
+    color: white; /* #D1D3D4 */
+}
+
+.dbug-background-grey {
+ background-color: rgb(209,211,212);   
+}
+
 @font-face {
 	font-family: 'icomoon';
 	src:url('/fonts/icomoon.eot?-q1hvm7');

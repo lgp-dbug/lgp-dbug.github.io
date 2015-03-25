@@ -177,6 +177,7 @@
     padding-left: 20px;
 }
 
+/************** navbar override *****************/
 .navbar-fixed-top.navbar-shrink .nav-text{
     font-size: 0.8em;
     margin-left: 0em;
@@ -186,4 +187,13 @@
     margin-left: -0.45em;
 }
 
+.navbar-default .navbar-brand {
+    padding-top: 20px;   
+}
 
+.navbar-shrink .nav.navbar-nav.navbar-right.text-center a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+/*******************************/

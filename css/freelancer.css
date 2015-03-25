@@ -461,3 +461,23 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+
+.post-content {
+    top:0;
+    left:0;
+    position: absolute;
+    text-align: center;
+    background-color: rgb(190,242,2);
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.post-content:hover {
+    opacity: 0.8;
+}
+
+.thumbnail{
+    position:relative;
+}
+

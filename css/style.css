@@ -1,16 +1,136 @@
 .vertical-heading-xl {
-	transform: rotate(-90deg);
-	transform-origin: left top 0;
-	float:left;
-	font-size:100pt;
-	font-family: 'Arial Black';
-	/*margin-top: -100px;*/
+    transform: rotate(-90deg);
+    transform-origin: left top 0;
+    float:left;
+    font-size:100pt;
+    font-family: 'Arial Black';
+    /*margin-top: -100px;*/
 }
 
 .dbug-green {
-	color: rgb(190, 242,2);
+    color: rgb(190, 242,2); /* #BEF202 */
 }
 
 .dbug-grey {
-	color: rgb(209,211,212);
+    color: rgb(209,211,212); /* #D1D3D4 */
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('/fonts/icomoon.eot?-q1hvm7');
+	src:url('/fonts/icomoon.eot?#iefix-q1hvm7') format('embedded-opentype'),
+		url('/fonts/icomoon.woff?-q1hvm7') format('woff'),
+		url('/fonts/icomoon.ttf?-q1hvm7') format('truetype'),
+		url('/fonts/icomoon.svg?-q1hvm7#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-about-circle .path1:before {
+	content: "\e605";
+	color: rgb(190, 242, 2);
+}
+.icon-about-circle .path2:before {
+	content: "\e606";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+.icon-about-circle .path3:before {
+	content: "\e607";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+.icon-about-circle .path4:before {
+	content: "\e608";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+
+.icon-about:before {
+	content: "\e600";
+}
+
+.icon-contacts-circle .path1:before {
+	content: "\e609";
+	color: rgb(190, 242, 2);
+}
+.icon-contacts-circle .path2:before {
+	content: "\e60a";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+
+.icon-contacts:before {
+	content: "\e601";
+}
+
+.icon-home-circle .path1:before {
+	content: "\e60b";
+	color: rgb(190, 242, 2);
+}
+.icon-home-circle .path2:before {
+	content: "\e60c";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+
+.icon-home:before {
+	content: "\e602";
+}
+
+.icon-mouse-circle .path1:before {
+	content: "\e60d";
+	color: rgb(190, 242, 2);
+}
+.icon-mouse-circle .path2:before {
+	content: "\e60e";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+
+.icon-mouse:before {
+	content: "\e603";
+}
+
+.icon-work-circle .path1:before {
+	content: "\e60f";
+	color: rgb(190, 242, 2);
+}
+.icon-work-circle .path2:before {
+	content: "\e610";
+	margin-left: -1em;
+	color: rgb(190, 242, 2);
+}
+.icon-work-circle .path3:before {
+	content: "\e611";
+	margin-left: -1em;
+	color: rgb(190, 242, 2);
+}
+.icon-work-circle .path4:before {
+	content: "\e612";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+
+.icon-work:before {
+	content: "\e604";
+}
+
+.icon-large {
+    /* font-size: xx-large; */
+    padding-left: 30px;
 }

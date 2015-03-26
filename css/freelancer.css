@@ -472,14 +472,30 @@ footer .footer-below {
     left:0;
     position: absolute;
     text-align: center;
-    background-color: rgb(190,242,2);
+    background-color: rgba(190,242,2, 0);
     opacity: 0;
-    height: 100%;
-    width: 100%;
 }
 
-.post-content:hover {
-    opacity: 0.8;
+@media (min-width: 992px) {
+    .post-content {
+        height: 100%;
+    }
+
+    .post-content:hover {
+        background-color: rgba(190,242,2, 0.8);
+        opacity: 0.8;
+    }
+}
+
+@media (max-width: 991px) {
+    .post-content {
+        opacity: 1;
+        top:75%;
+        left:0;
+        width: 100%;
+        background-color: rgba(150, 150, 150, 0.5);
+        color: white;
+    }
 }
 
 .thumbnail {
@@ -491,7 +507,8 @@ footer .footer-below {
     padding-left: 0;
     padding-right: 0;
 }
-hr{
+
+hr {
     border-top: 3px solid #ecf0f1;
 }
 

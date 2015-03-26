@@ -502,3 +502,12 @@ hr{
 .underline {
     text-decoration: underline;
 }
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: white;
+}
+
+span.black-stripe{
+    background-color: black;
+}

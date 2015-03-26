@@ -3,7 +3,7 @@
     transform-origin: left top 0;
     float:left;
     font-size:100pt;
-    font-family: 'Arial Black';
+    font-family: 'Arial Black', sans-serif;
     margin-top: -40px; /* HACK */
 }
 
@@ -35,7 +35,7 @@
 }
 
 [class^="icon-"], [class*=" icon-"] {
-	font-family: 'icomoon';
+    font-family: 'icomoon', sans-serif;
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -159,7 +159,8 @@
 
 #team h3, #team p{
 	font-size:13px;
-	color:#000;
+	/* color:#000; */
+	margin-top: 10px;
 }
 
 #team a{
@@ -180,7 +181,7 @@
 /************** navbar override *****************/
 .navbar-fixed-top.navbar-shrink .nav-text{
     font-size: 0.8em;
-    margin-left: 0em;
+    margin-left: 0;
 }
 .navbar-fixed-top.navbar-shrink [class*=" icon-"]{
     font-size: 1.5em;
@@ -197,3 +198,7 @@
 
 }
 /*******************************/
+
+.thumbnail {
+
+}

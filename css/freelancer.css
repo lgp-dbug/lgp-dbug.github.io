@@ -53,7 +53,7 @@ hr.star-primary:after {
     position: relative;
     top: -.8em;
     padding: 0 .25em;
-    font-family: FontAwesome;
+    font-family: FontAwesome, serif;
     font-size: 2em;
 }
 
@@ -312,7 +312,6 @@ section.success {
     margin: 0;
     font-size: .85em;
     line-height: 1.764705882em;
-    vertical-align: middle;
     vertical-align: baseline;
     opacity: 0;
     -webkit-transition: top .3s ease,opacity .3s ease;
@@ -478,7 +477,12 @@ footer .footer-below {
     opacity: 0.8;
 }
 
-.thumbnail{
-    position:relative;
+.thumbnail {
+    position: relative;
+    margin-bottom: 0 !important;
 }
 
+.photo-hover {
+    padding-left: 0;
+    padding-right: 0;
+}

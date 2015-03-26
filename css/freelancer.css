@@ -479,6 +479,7 @@ footer .footer-below {
 @media (min-width: 992px) {
     .post-content {
         height: 100%;
+        width: 100%;
     }
 
     .post-content:hover {

@@ -39,6 +39,8 @@ h6 {
 h2.project-title{
     text-transform: none;
     margin-bottom: 30px !important;
+    text-align: left;
+    font-size: 2.5em;
 }
 
 hr.star-light,
@@ -428,7 +430,7 @@ footer .footer-below {
 }
 
 .work-modal .close-modal {
-    position: absolute;
+    position: fixed;
     top: 25px;
     right: 25px;
     width: 75px;
@@ -443,7 +445,7 @@ footer .footer-below {
 
 .work-modal .close-modal .lr {
     z-index: 1051;
-    width: 1px;
+    width: 3px;
     height: 75px;
     margin-left: 35px;
     background-color: #BEF202;
@@ -454,7 +456,7 @@ footer .footer-below {
 
 .work-modal .close-modal .lr .rl {
     z-index: 1052;
-    width: 1px;
+    width: 3px;
     height: 75px;
     background-color: #BEF202;
     -webkit-transform: rotate(90deg);

@@ -208,11 +208,13 @@
 .navbar-shrink .nav-text-inline {
     position:relative;
     top:-5px;
+    left: -10px;
 }
 
 .nav-text-inline {
     position:relative;
     top:-15px;
+    left: -10px;
 }
 
 

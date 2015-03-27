@@ -157,16 +157,16 @@
 }
 /******************/
 
-#team h3/*, */{
+#team h3, #team p{
 	font-size:13px;
 	/* color:#000; */
-	margin-top: 85px;
+	margin-top: 10px;
 }
-
+/*
 #team p {
     margin-top: -10px;
     font-size:12px;
-}
+}*/
 
 #team a{
 	display:block;

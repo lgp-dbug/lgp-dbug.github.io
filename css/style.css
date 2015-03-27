@@ -197,6 +197,20 @@
     padding-bottom: 10px;
 
 }
+
+
+
+.navbar-shrink .nav-text-inline {
+    position:relative;
+    top:-5px;
+}
+
+.nav-text-inline {
+    position:relative;
+    top:-15px;
+}
+
+
 /*******************************/
 
 .thumbnail {

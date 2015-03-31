@@ -527,3 +527,16 @@ hr {
 span.black-stripe{
     background-color: black;
 }
+
+span.green{
+    color: rgb(190,242,2);
+}
+
+.company-description{
+    font-size:200%;
+    font-weight:900;
+}
+
+.company-priority{
+    font-size: 150%;
+}

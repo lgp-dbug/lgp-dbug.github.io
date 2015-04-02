@@ -35,7 +35,7 @@
 }
 
 [class^="icon-"], [class*=" icon-"] {
-    font-family: 'icomoon', sans-serif;
+	font-family: 'icomoon';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -46,6 +46,114 @@
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-team:before {
+	content: "\e613";
+}
+
+.icon-team-circle .path1:before {
+	content: "\e614";
+	color: rgb(190, 242, 2);
+}
+.icon-team-circle .path2:before {
+	content: "\e615";
+	margin-left: -1em;
+	color: rgb(190, 242, 2);
+}
+.icon-team-circle .path3:before {
+	content: "\e616";
+	margin-left: -1em;
+	color: rgb(190, 242, 2);
+}
+.icon-team-circle .path4:before {
+	content: "\e617";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+.icon-team-circle .path5:before {
+	content: "\e618";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+.icon-team-circle .path6:before {
+	content: "\e619";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+.icon-team-circle .path7:before {
+	content: "\e61a";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+.icon-team-circle .path8:before {
+	content: "\e61b";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+.icon-team-circle .path9:before {
+	content: "\e61c";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+.icon-team-circle .path10:before {
+	content: "\e61d";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+
+.icon-team-circle-white .path1:before {
+	content: "\e61e";
+	color: rgb(190, 242, 2);
+}
+.icon-team-circle-white .path2:before {
+	content: "\e61f";
+	margin-left: -1em;
+	color: rgb(190, 242, 2);
+}
+.icon-team-circle-white .path3:before {
+	content: "\e620";
+	margin-left: -1em;
+	color: rgb(190, 242, 2);
+}
+.icon-team-circle-white .path4:before {
+	content: "\e621";
+	margin-left: -1em;
+	color: rgb(190, 242, 2);
+}
+.icon-team-circle-white .path5:before {
+	content: "\e622";
+	margin-left: -1em;
+	color: rgb(255, 255, 255);
+}
+.icon-team-circle-white .path6:before {
+	content: "\e623";
+	margin-left: -1em;
+	color: rgb(255, 255, 255);
+}
+.icon-team-circle-white .path7:before {
+	content: "\e624";
+	margin-left: -1em;
+	color: rgb(255, 255, 255);
+}
+.icon-team-circle-white .path8:before {
+	content: "\e625";
+	margin-left: -1em;
+	color: rgb(255, 255, 255);
+}
+.icon-team-circle-white .path9:before {
+	content: "\e626";
+	margin-left: -1em;
+	color: rgb(255, 255, 255);
+}
+.icon-team-circle-white .path10:before {
+	content: "\e627";
+	margin-left: -1em;
+	color: rgb(255, 255, 255);
+}
+
+.icon-about:before {
+	content: "\e600";
 }
 
 .icon-about-circle .path1:before {
@@ -68,8 +176,28 @@
 	color: rgb(0, 0, 0);
 }
 
-.icon-about:before {
-	content: "\e600";
+.icon-about-circle-white .path1:before {
+	content: "\e628";
+	color: rgb(190, 242, 2);
+}
+.icon-about-circle-white .path2:before {
+	content: "\e629";
+	margin-left: -1em;
+	color: rgb(255, 255, 255);
+}
+.icon-about-circle-white .path3:before {
+	content: "\e62a";
+	margin-left: -1em;
+	color: rgb(255, 255, 255);
+}
+.icon-about-circle-white .path4:before {
+	content: "\e62b";
+	margin-left: -1em;
+	color: rgb(255, 255, 255);
+}
+
+.icon-contacts:before {
+	content: "\e601";
 }
 
 .icon-contacts-circle .path1:before {
@@ -82,8 +210,18 @@
 	color: rgb(0, 0, 0);
 }
 
-.icon-contacts:before {
-	content: "\e601";
+.icon-contacts-circle-white .path1:before {
+	content: "\e62c";
+	color: rgb(190, 242, 2);
+}
+.icon-contacts-circle-white .path2:before {
+	content: "\e62d";
+	margin-left: -1em;
+	color: rgb(255, 255, 255);
+}
+
+.icon-home:before {
+	content: "\e602";
 }
 
 .icon-home-circle .path1:before {
@@ -96,8 +234,18 @@
 	color: rgb(0, 0, 0);
 }
 
-.icon-home:before {
-	content: "\e602";
+.icon-home-circle-white .path1:before {
+	content: "\e62e";
+	color: rgb(190, 242, 2);
+}
+.icon-home-circle-white .path2:before {
+	content: "\e62f";
+	margin-left: -1em;
+	color: rgb(255, 255, 255);
+}
+
+.icon-mouse:before {
+	content: "\e603";
 }
 
 .icon-mouse-circle .path1:before {
@@ -110,8 +258,18 @@
 	color: rgb(0, 0, 0);
 }
 
-.icon-mouse:before {
-	content: "\e603";
+.icon-mouse-circle-white .path1:before {
+	content: "\e630";
+	color: rgb(190, 242, 2);
+}
+.icon-mouse-circle-white .path2:before {
+	content: "\e631";
+	margin-left: -1em;
+	color: rgb(255, 255, 255);
+}
+
+.icon-work:before {
+	content: "\e604";
 }
 
 .icon-work-circle .path1:before {
@@ -134,28 +292,25 @@
 	color: rgb(0, 0, 0);
 }
 
-
-/*********************/
-.icon-team-circle .path1:before {
-	content: "\e60f";
+.icon-work-circle-white .path1:before {
+	content: "\e632";
 	color: rgb(190, 242, 2);
 }
-.icon-team-circle .path2:before {
-	content: "\e610";
+.icon-work-circle-white .path2:before {
+	content: "\e633";
 	margin-left: -1em;
 	color: rgb(190, 242, 2);
 }
-.icon-team-circle .path3:before {
-	content: "\e611";
+.icon-work-circle-white .path3:before {
+	content: "\e634";
 	margin-left: -1em;
 	color: rgb(190, 242, 2);
 }
-.icon-team-circle .path4:before {
-	content: "\e612";
+.icon-work-circle-white .path4:before {
+	content: "\e635";
 	margin-left: -1em;
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 }
-/******************/
 
 #team h3, #team p{
 	font-size:13px;

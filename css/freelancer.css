@@ -43,6 +43,11 @@ h2.project-title{
     font-size: 2.5em;
 }
 
+h3.project-title{
+    text-transform: none;
+    font-size: 2em !important;
+}
+
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
@@ -491,6 +496,7 @@ footer .footer-below {
     .post-content {
         opacity: 1;
         top:85%;
+        height:15%;
         left:0;
         background-color: rgba(150, 150, 150, 0.5);
         color: white;
@@ -533,7 +539,7 @@ span.green{
 }
 
 .company-description{
-    font-size:200%;
+    font-size:265%;
     font-weight:900;
 }
 

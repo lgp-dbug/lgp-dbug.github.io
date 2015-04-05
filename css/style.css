@@ -373,16 +373,17 @@ video.fillWidth {
 }
 
 .navbar-default .navbar-brand {
-    padding-top: 20px;   
+    padding-top: 20px;  
+}
+
+.navbar-shrink .navbar-brand {
+    margin-top: 0px !important;  
 }
 
 .navbar-shrink .nav.navbar-nav.navbar-right.text-center a {
     padding-top: 10px;
     padding-bottom: 10px;
-
 }
-
-
 
 .navbar-shrink .nav-text-inline {
     position:relative;

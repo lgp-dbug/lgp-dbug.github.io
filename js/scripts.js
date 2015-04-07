@@ -13,6 +13,10 @@ $(function() {
         $("#anim").removeProp('autoplay')
                  .prop('controls', true);
     }
+
+    if (Math.random() > 0.1) {
+        $("#follower").remove();
+    }
 });
 
 // Highlight the top nav as scrolling occurs
@@ -24,3 +28,20 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+var mouseX = 0, mouseY = 0;
+$(document).mousemove(function(e){
+    mouseX = e.pageX;
+    mouseY = e.pageY;
+});
+
+// cache the selector
+var follower = $("#follower");
+var xp = 0, yp = 0;
+var loop = setInterval(function(){
+    // change 12 to alter damping higher is slower
+    xp += (mouseX - xp) / 12;
+    yp += (mouseY - yp) / 12;
+    follower.css({left:xp, top:yp});
+
+}, 30);

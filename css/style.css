@@ -983,3 +983,9 @@ video.fillWidth {
 .vertical-heading-xl > span.dbug-green {
     font-family:  monospace;
 }
+
+#follower{
+    position : absolute;
+    color : black;
+    padding : 10px;
+}

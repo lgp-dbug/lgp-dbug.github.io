@@ -7,6 +7,12 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
+
+    var iOS = /(iPad|iPhone|iPod)/g.test(navigator.userAgent);
+    if (iOS) {
+        $("#anim").removeProp('autoplay')
+                 .prop('controls', true);
+    }
 });
 
 // Highlight the top nav as scrolling occurs

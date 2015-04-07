@@ -16,7 +16,7 @@
 }
 
 .dbug-white {
-    color: white; /* #D1D3D4 */
+    color: white;
 }
 
 .dbug-background-grey {
@@ -418,5 +418,3 @@ video.fillWidth {
     width: 100%;
     height: 100%;
 }
-
-

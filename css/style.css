@@ -4,7 +4,7 @@
     float:left;
     font-size:100pt;
     font-family: 'Arial Black', sans-serif;
-    margin-top: -40px; /* HACK */
+    position: absolute;
 }
 
 .dbug-green {
@@ -429,3 +429,6 @@ video.fillWidth {
     }
 }
 
+.vertical-heading-xl > span.dbug-green {
+    font-family:  monospace;
+}

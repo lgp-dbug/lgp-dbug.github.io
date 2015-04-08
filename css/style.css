@@ -731,6 +731,10 @@ video.fillWidth {
 	content: "\e600";
 }
 
+.icon-about-open:before {
+    content: "\e636";
+}
+
 .icon-about-circle .path1:before {
 	content: "\e605";
 	color: rgb(190, 242, 2);

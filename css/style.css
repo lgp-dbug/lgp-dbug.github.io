@@ -896,11 +896,7 @@ video.fillWidth {
 	/* color:#000; */
 	margin-top: 10px;
 }
-/*
-#team p {
-    margin-top: -10px;
-    font-size:12px;
-}*/
+
 
 #team a{
 	display:block;
@@ -980,7 +976,13 @@ video.fillWidth {
     }
 
     p.user-role {
-    	margin-top: 10px !important;
+    	margin-top: 10% !important;
+    }
+}
+
+@media (max-width: 992px) {
+    #team h3, #team p{
+        display: inline;
     }
 }
 

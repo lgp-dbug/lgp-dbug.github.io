@@ -23,6 +23,7 @@ $(function() {
 
     $('#below-header').click(function () {
         var follower = $("#follower");
+        follower.removeClass("hidden");
         var loop1 = 0;
         var loop2 = 0;
 

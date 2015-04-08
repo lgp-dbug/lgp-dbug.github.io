@@ -23,15 +23,15 @@ $(function() {
 
     $('#below-header').click(function () {
         var follower = $("#follower");
-        var loop1 = undefined;
-        var loop2 = undefined;
+        var loop1 = 0;
+        var loop2 = 0;
 
         if (!bugged) {
             bugged = true;
             // cache the selector
             follower.show();
 
-            loop = setInterval(function () {
+            loop1 = setInterval(function () {
 
                 var ang = Math.floor(Math.atan2(mouseY - yp, mouseX - xp) * 180 / Math.PI) + 90;
                 follower.css({transform: 'rotate(' + ang + 'deg)'});

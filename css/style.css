@@ -185,8 +185,12 @@ header .intro-text .skills {
 }
 
 .navbar-default .navbar-brand {
-    color: rgb(190, 242,2);
+    color: rgb(209,211,212);
     margin-top:20px;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: rgb(190, 242, 2);
 }
 
 section {

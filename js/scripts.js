@@ -21,7 +21,7 @@ $(function() {
                  .prop('controls', true);
     }
 
-    $('#below-header').click(function () {
+    $('.slogan').click(function () {
         var follower = $("#follower");
         follower.removeClass("hidden");
         var loop1 = 0;

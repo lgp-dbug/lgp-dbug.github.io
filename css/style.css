@@ -601,6 +601,13 @@ video.fillWidth {
     background-color: rgb(167,169,173);
 }
 
+.slogan {
+    font-weight: 400;
+    font-size: 2em;
+    margin: 0;
+    color: white;
+}
+
 @font-face {
 	font-family: 'icomoon';
 	src:url('/fonts/icomoon.eot?-q1hvm7');

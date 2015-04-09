@@ -900,6 +900,9 @@ video.fillWidth {
 	margin-top: 10px;
 }
 
+.user-name, .user-role {
+    color: black !important;
+}
 
 #team a{
 	display:block;

@@ -896,7 +896,7 @@ video.fillWidth {
 
 #team h3, #team p{
 	font-size:13px;
-	/* color:#000; */
+    color: rgb(128, 130, 133);
 	margin-top: 10px;
 }
 

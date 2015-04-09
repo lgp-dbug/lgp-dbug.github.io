@@ -1008,3 +1008,7 @@ video.fillWidth {
     color : black;
     padding : 10px;
 }
+
+#team {
+    padding-bottom: 180px;
+}

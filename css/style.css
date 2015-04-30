@@ -541,6 +541,9 @@ span.green{
 
 .vertical-heading-xl {
     transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
     transform-origin: left top 0;
     float:left;
     font-size:100pt;

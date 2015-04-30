@@ -543,6 +543,8 @@ span.green{
     -ms-transform: rotate(-90deg); /* IE 9 */
     -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
     transform: rotate(-90deg);
+    -ms-transform-origin: left top 0;
+    -webkit-transform-origin: left top 0;
     transform-origin: left top 0;
     float:left;
     font-size:100pt;
